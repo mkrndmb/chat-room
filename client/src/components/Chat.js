@@ -90,6 +90,7 @@ export default function Chat({ name }) {
           message={message}
           sendMessage={sendMessage}
           setMessage={setMessage}
+          placeholder='Type message here ..'
         />
         <button className="send" onClick={(e) => sendMessage(e)} type="button">
           Send
