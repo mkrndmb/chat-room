@@ -1,0 +1,30 @@
+.home{
+    height: 170px;
+    width: 250px;
+    background-color: rgb(54, 68, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 2px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+button{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+    width:60px;
+    background-color: rgb(12, 172, 84);
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+}
